@@ -1,8 +1,8 @@
-API_ID       = 
-API_HASH     = ""
-BOT_TOKEN    = ""
-SESSION      = ""
-DATABASE_URI = ""
-LOG_CHANNEL  = 
-ADMIN        = 
-CHANNEL      = "@CyNiTeBaCkUp"
+API_ID       = 21257327
+API_HASH     = "1235c1fe45ebc4968d9e23bc93440549"
+BOT_TOKEN    = "6461890473:AAHj4iz9BocjX4cJ_EwEInMIwwjV7sTixe0"
+SESSION      = "BQFEXG8APoakBCFZv0cqlKmRGnkfNOtE0C_F1Nr6RtDg5XQp0ROeWFYOgUUcQoHTxpAcJByfdh46-fTP3hrZyQYFlL9cS_mlvm3j_c0rHAhaiwqZHKUUiYZMmY07iPq70MowNNmCSWPtDaMkh6hsN4eXW_4hBDXAUeDM7xYc8DGJB_ApzmZBAZiIQS9MqSm8KSc0_aiB6eW8kMeNqUsCRPGdaCXiROYq_-2Fz6u8sg2aO9RS0JV-ZXUxK4P-LNeQDc0gYlrEDZr9RR3d5-vnsCavGKl1tI0DnT5DYi3fmKcEzmMq9y8qj8gnigJx581ALO-TCYMOFeaMR1TOXh_Li-H0qUfgxQAAAAGsWA54AA"
+DATABASE_URI = "mongodb+srv://figega1249:owYb9NfJAuBRFFFV@cluster0.wfrsxjp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+LOG_CHANNEL  = -1002006222060
+ADMIN        = 5192808332
+CHANNEL      = "@Geeky_Network"
