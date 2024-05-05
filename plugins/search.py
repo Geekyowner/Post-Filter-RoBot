@@ -17,7 +17,8 @@ async def search(bot, message):
     if message.text.startswith("/"):
        return    
     query   = message.text 
-    head    = "<b>Here Are the results 👇\n\n💥 Powered By </b> <b><I>@Geeky_Network</I></b>\n\n", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔥Update Channel🔥 ", url=f"https://t.me/MisterBrutal")]])
+    head    = "<b>Here Are the results 👇\n\n💥 Powered By </b> <b><I>@Geeky_Network</I></b>\n\n", 
+    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔥Update Channel🔥 ", url=f"https://t.me/MisterBrutal")]])
     results = ""
     try:
        for channel in channels:
