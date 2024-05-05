@@ -1,26 +1,27 @@
 class script(object):
     START = """**Hello {} 🤟**
    
-I am **Find Post Bot**.I am best Channel Link Search Bot! 
-I Will filter your channel posts automatically and send it in your group chat when Someone search it."""
+ɪ ᴀᴍ ᴘᴏsᴛ ʟɪɴᴋ sᴇᴀʀᴄʜ ʙᴏᴛ.ɪ ᴀᴍ ʙᴇsᴛ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ sᴇᴀʀᴄʜ ʙᴏᴛ! 
+ɪ ᴡɪʟʟ ғɪʟᴛᴇʀ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴘᴏsᴛs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀɴᴅ sᴇɴᴅ ɪᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴄʜᴀᴛ ᴡʜᴇɴ sᴏᴍᴇᴏɴᴇ sᴇᴀʀᴄʜ ɪᴛ."""
 
-    HELP = """To Use me In A Group
+    HELP = """ᴛᴏ ᴜsᴇ ᴍᴇ ɪɴ ᴀ ɢʀᴏᴜᴘ
 
-- Add me in your group & channel with all permissions. 
-- Send /verify in group & wait for It To Accept Or Directly Contact To Owner After Request @CyniteOfficial.
-- After verification send /connect YourChannelID
-- Example : /connect -100xxxxxxxxxx
-- Done ✅. <b><I>Enjoy 💜❤</I></b> )
+- ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴄʜᴀɴɴᴇʟ ᴡɪᴛʜ ᴀʟʟ ᴘᴇʀᴍɪssɪᴏɴs. 
+- sᴇɴᴅ /verify ɪɴ ɢʀᴏᴜᴘ ᴀɴᴅ ᴡᴀɪᴛ ғᴏʀ ɪᴛ ᴛᴏ ᴀᴄᴄᴇᴘᴛ ᴏʀ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ ᴀғᴛᴇʀ ʀᴇǫᴜᴇsᴛ @MisterBrutal.
+- ᴀғᴛᴇʀ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ sᴇɴᴅ /connect ʏᴏᴜʀᴄʜᴀɴɴᴇʟɪᴅ
+- ᴇxᴀᴍᴘʟᴇ : /connect -100xxxxxxxxxx
+- ᴀʟsᴏ ʏᴏᴜ ᴄᴀɴ ᴀᴅᴅ ғᴏʀᴄᴇ sᴜʙsᴄʀɪʙᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ʙʏ /fsub ʏᴏᴜʀᴄʜᴀɴɴᴇʟɪᴅ ᴀɴᴅ ᴄᴀɴ ʀᴇᴍᴏᴠᴇ ʙʏ /nofsub.
+- ᴅᴏɴᴇ ᴇɴɪᴏʏ
 
-Remove a Channel with - /disconnect-100xxxxxxxxxxx
-this will help you to remove a indexed channel from your group.
+ʀᴇᴍᴏᴠᴇ ᴀ ᴄʜᴀɴɴᴇʟ ᴡɪᴛʜ - /disconnect -100xxxxxxxxxxx
+ᴛʜɪs ᴡɪʟʟ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ʀᴇᴍᴏᴠᴇ ᴀ ɪɴᴅᴇxᴇᴅ ᴄʜᴀɴɴᴇʟ ғʀᴏᴍ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
 
-Get connected channels list with - /connections"""
+ɢᴇᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟs ʟɪsᴛ ᴡɪᴛʜ - /connection"""
 
-    ABOUT = """Powered By @CyniteBackup
+    ABOUT = """Powered By @MisterBrutal
 
 ✯ Mʏ Nᴀᴍᴇ:  {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='tg://user?id=1883570185'>Harman</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/MisterBrutal'>Brutal</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org'>Pʏᴛʜᴏɴ 3</a>
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://cloud.mongodb.com/'>MᴏɴɢᴏDB</a>
 ✯ Bᴏᴛ Sᴇʀᴠᴇʀ: : <a href='https://heroku.com'>Heroku</a>"""
