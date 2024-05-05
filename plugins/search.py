@@ -25,7 +25,8 @@ async def search(bot, message):
                name = (msg.text or msg.caption).split("\n")[0]
                if name in results:
                   continue 
-               results += f"<b><I>♻️ {name}\n🔗 {msg.link}</I></b>\n\n"                                                      
+               results += f"<b><I>♻️ {name}\n🔗 {msg.link}</I></b>\n\n"     
+               reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔥Update Channel🔥 ", url=f"https://t.me/MisterBrutal")]])
        if bool(results)==False:
           movies = await search_imdb(query)
           buttons = []
@@ -67,7 +68,7 @@ async def recheck(bot, update):
                   continue 
                results += f"<b><I>♻️🍿 {name}</I></b>\n\n🔗 {msg.link}</I></b>\n\n"
        if bool(results)==False:          
-          return await update.message.edit("Still no results found! Please Request To Group Admin", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎯 Request To Admin 🎯", callback_data=f"request_{id}")]]))
+          return await update.message.edit("Still no results found! Please Request To Group Admin", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(" Request To Admin 📝", callback_data=f"request_{id}")]]))
        await update.message.edit(text=head+results, disable_web_page_preview=True)
     except Exception as e:
        await update.message.edit(f"❌ Error: `{e}`")
