@@ -17,7 +17,7 @@ async def search(bot, message):
     if message.text.startswith("/"):
        return    
     query   = message.text 
-    head    = "<u>Here is the results 👇\n\n💥 Powered By </u> <b><I>@Geeky_Network</I></b>\n\n"
+    head    = "<b>Here Are the results 👇\n\n💥 Powered By </b> <b><I>@Geeky_Network</I></b>\n\n"
     results = ""
     try:
        for channel in channels:
@@ -25,7 +25,7 @@ async def search(bot, message):
                name = (msg.text or msg.caption).split("\n")[0]
                if name in results:
                   continue 
-               results += f"<b><I>♻️ {name}\n🔗 {msg.link}</I></b>\n\n"     
+               results += f"<b><I>♻️ {name}\n🔗 {msg.link}</I></b>\n\n",     
                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔥Update Channel🔥 ", url=f"https://t.me/MisterBrutal")]])
        if bool(results)==False:
           movies = await search_imdb(query)
@@ -58,7 +58,7 @@ async def recheck(bot, update):
     id      = update.data.split("_")[-1]
     query   = await search_imdb(id)
     channels = (await get_group(update.message.chat.id))["channels"]
-    head    = "<u>I Have Searched Movie With Wrong Spelling But Take care next time 👇\n\nPowered By </u> <b><I>@Geeky_Network</I></b>\n\n"
+    head    = "<b>I Have Searched Movie With Wrong Spelling But Take care next time 👇\n\nPowered By </b> <b><I>@Geeky_Network</I></b>\n\n"
     results = ""
     try:
        for channel in channels:
