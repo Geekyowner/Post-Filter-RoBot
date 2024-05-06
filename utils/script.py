@@ -28,6 +28,15 @@ class script(object):
 ✯ ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/Geeky_Network'>ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ </a>
 ✯ ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/MisterBrutal'ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ></a>"""
 
+    DONATE_TXT = """
+<b>❣️ Thanks For Showing Interest In Donation! ❤️</b>
+
+If You Like My Work And Projecs, You Can 🎁 Donate Some Amount Of Your Choice To Support Me!.
+
+<b>🛍 UPI ID:</b> <code> niteshsingh84013@okicici </code> 
+
+<b>📸 Send Screenshot Of Payment To Me After Payment To Activate Your Premium Plan </b> """
+
     STATS = """My Status 💫
 
 👥 Users: {}
