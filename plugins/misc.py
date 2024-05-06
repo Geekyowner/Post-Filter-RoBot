@@ -59,7 +59,7 @@ async def misc(bot, update):
                                                             InlineKeyboardButton("🔥ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔥 ", url='https://t.me/MisterBrutal')
                                  ],[
                                                             InlineKeyboardButton("❣️ ꜱᴜᴘᴘᴏʀᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❣️", callback_data="DONATE_TXT")
-                                 ]]])) 
+                                 ]])) 
     elif data=="help":
        await update.message.edit(text=script.HELP, 
                                  disable_web_page_preview=True,
