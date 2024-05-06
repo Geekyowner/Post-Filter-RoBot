@@ -16,7 +16,7 @@ async def start(bot, message):
                                                            InlineKeyboardButton("🔥ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔥 ", url='https://t.me/MisterBrutal')
                                                            ],[
                                                            InlineKeyboardButton("❣️ ꜱᴜᴘᴘᴏʀᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❣️", callback_data="DONATE_TXT")]
-                                                          ]]))  
+                                                          ]))  
 @Client.on_message(filters.command("help"))
 async def help(bot, message):
     await message.reply(text=script.HELP, 
