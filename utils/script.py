@@ -29,7 +29,7 @@ class script(object):
 ✯ ʙᴏᴛꜱ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/MisterBrutal'ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ></a>"""
 
     DONATE_TXT = """
-<b>❣️ Thanks For Showing Interest In Donation! ❤️</b>
+<b>❣️ Thanks For Showing Interest In Donation! ❣️</b>
 
 If You Like My Work And Projecs, You Can 🎁 Donate Some Amount Of Your Choice To Support Me!.
 
