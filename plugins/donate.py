@@ -5,5 +5,5 @@ async def donatecm(bot,message):
 	text = script.DONATE_TXT
 	keybord = InlineKeyboardMarkup([
         			[InlineKeyboardButton("🦋 Admin",url = "https://t.me/mrbrutal_141"), 
-        			InlineKeyboardButton("✖️ Close",callback_data = "cancel") ]])
+        			InlineKeyboardButton("🔙 Back",callback_data = "help") ]])
 	await message.reply_text(text = text,reply_markup = keybord)
