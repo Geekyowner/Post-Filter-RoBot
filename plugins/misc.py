@@ -45,6 +45,14 @@ async def id(bot, message):
        if message.reply_to_message.forward_from_chat:
           text += f"Replied Message Forward from Chat ID: `{message.reply_to_message.forward_from_chat.id}\n`"
     await message.reply(text)
+    
+@Client.on_message(filters.private & filters.command(["donate"]))
+async def donatecm(bot,message):
+	text = script.DONATE
+	keybord = InlineKeyboardMarkup([
+        			[InlineKeyboardButton("🦋 Admin",url = "https://t.me/mrbrutal_141"), 
+        			InlineKeyboardButton("🏠 Home",callback_data = "misc_home") ]])
+	await message.reply_text(text = text,reply_markup = keybord)
 
 @Client.on_callback_query(filters.regex(r"^misc"))
 async def misc(bot, update):
@@ -57,7 +65,7 @@ async def misc(bot, update):
                                                                     ],[
                                                             InlineKeyboardButton("🔥ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔥 ", url='https://t.me/MisterBrutal')
                                  ],[
-                                                            InlineKeyboardButton("❣️ ꜱᴜᴘᴘᴏʀᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❣️", callback_data="DONATE_TXT")
+                                                            InlineKeyboardButton("❣️ ꜱᴜᴘᴘᴏʀᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❣️", callback_data="DONATE")
                                  ]])) 
     elif data=="help":
        await update.message.edit(text=script.HELP, 
