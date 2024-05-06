@@ -72,6 +72,11 @@ async def misc(bot, update):
                                  disable_web_page_preview=True,
                                  reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⬅️ Back", callback_data="misc_home")]])) 
 
+    elif data=="donate":
+       await update.message.edit(text=script.DONATE, 
+                                 disable_web_page_preview=True,
+                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🏠 Home", callback_data="misc_home")]])) 
+	
     elif data=="about":
         await update.message.edit(text=script.ABOUT.format((await bot.get_me()).mention), 
                                   disable_web_page_preview=True,
