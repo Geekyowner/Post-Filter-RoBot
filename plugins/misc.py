@@ -14,7 +14,7 @@ async def start(bot, message):
                                                            ],[
                                                            InlineKeyboardButton("🔥ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔥 ", url='https://t.me/MisterBrutal')
                                                            ],[
-                                                           InlineKeyboardButton("❣️ ꜱᴜᴘᴘᴏʀᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❣️", callback_data="DONATE_TXT")]
+                                                           InlineKeyboardButton("❣️ ꜱᴜᴘᴘᴏʀᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❣️", callback_data="misc_donate")]
                                                           ]))  
 @Client.on_message(filters.command("help"))
 async def help(bot, message):
@@ -62,7 +62,7 @@ async def misc(bot, update):
                                                                     ],[
                                                             InlineKeyboardButton("🔥ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔥 ", url='https://t.me/MisterBrutal')
                                  ],[
-                                                            InlineKeyboardButton("❣️ ꜱᴜᴘᴘᴏʀᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❣️", callback_data="DONATE")
+                                                            InlineKeyboardButton("❣️ ꜱᴜᴘᴘᴏʀᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❣️", callback_data="misc_donate")
                                  ]])) 
     elif data=="help":
        await update.message.edit(text=script.HELP, 
