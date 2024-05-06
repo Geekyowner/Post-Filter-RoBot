@@ -20,7 +20,12 @@ async def start(bot, message):
 async def help(bot, message):
     await message.reply(text=script.HELP, 
                         disable_web_page_preview=True)
-
+	
+@Client.on_message(filters.command("donate"))
+async def donate(bot, message):
+    await message.reply(text=script.DONATE, 
+                        disable_web_page_preview=True)
+	
 @Client.on_message(filters.command("about"))
 async def about(bot, message):
     await message.reply(text=script.ABOUT.format((await bot.get_me()).mention), 
@@ -45,14 +50,6 @@ async def id(bot, message):
        if message.reply_to_message.forward_from_chat:
           text += f"Replied Message Forward from Chat ID: `{message.reply_to_message.forward_from_chat.id}\n`"
     await message.reply(text)
-    
-@Client.on_message(filters.private & filters.command(["donate"]))
-async def donatecm(bot,message):
-	text = script.DONATE
-	keybord = InlineKeyboardMarkup([
-        			[InlineKeyboardButton("🦋 Admin",url = "https://t.me/mrbrutal_141"), 
-        			InlineKeyboardButton("🏠 Home",callback_data = "misc_home") ]])
-	await message.reply_text(text = text,reply_markup = keybord)
 
 @Client.on_callback_query(filters.regex(r"^misc"))
 async def misc(bot, update):
