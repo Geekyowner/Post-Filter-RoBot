@@ -31,11 +31,14 @@ class script(object):
     DONATE = """
 <b>❣️ Thanks For Showing Interest In Donation! ❣️</b>
 
-If You Like My Work And Projecs, You Can 🎁 Donate Some Amount Of Your Choice To Support Me!.
+Iғ Yᴏᴜ Lɪᴋᴇ Mʏ Wᴏʀᴋ Aɴᴅ Pʀᴏᴊᴇᴄs, Yᴏᴜ Cᴀɴ 🎁 Dᴏɴᴀᴛᴇ Sᴏᴍᴇ Aᴍᴏᴜɴᴛ Oғ Yᴏᴜʀ Cʜᴏɪᴄᴇ Tᴏ Sᴜᴘᴘᴏʀᴛ Mᴇ!.
 
-<b>🛍 UPI ID:</b> <code> niteshsingh84013@okicici </code> 
+<b>🛍 UPI ID:</b> <code>  misterbrutal@apl</code> 
 
-<b>📸 Send Screenshot Of Payment To Me After Payment To Activate Your Premium Plan </b> """
+<b>📸 Sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ Oғ Pᴀʏᴍᴇɴᴛ Tᴏ Mᴇ Aғᴛᴇʀ Pᴀʏᴍᴇɴᴛ Tᴏ Aᴄᴛɪᴠᴀᴛᴇ Yᴏᴜʀ Pʀᴇᴍɪᴜᴍ Pʟᴀɴ </b>
+
+BOT ADMIN - @mrbrutal_141
+"""
 
     STATS = """My Status 💫
 
